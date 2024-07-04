@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Forntpage from './pages/Forntpage';
+import logo from './logo.svg';
+import Singnup from './pages/Singnup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <App/>
   </React.StrictMode>
 );
 
